@@ -1,1 +1,6 @@
-Here is the report of Assignment 2
+<img width="930" alt="Screen Shot 2020-06-15 at 6 05 55 PM" src="https://user-images.githubusercontent.com/65793583/84711003-5ad01280-af33-11ea-982c-b8b76f4d8d20.png">
+
+1. According to the accuracy score I got from the model I built, we can find out that there is not much difference between accuracy score of text with stopwords and text without stopwords and after removing stopwords, the accuracy scores didn't increase but decrease instead.From my perspective this situation happened because the step of removing stopwords only remove some basic words so it woun't cause too much influnce. Also,after removing stopwords from text, the meaning of some sentences may be changed and misleading.So the accuracy score decrease a little bit.
+
+
+2. From the table above, we can see that unigram+bigram has highest accuracy score whether for the texts with stopwords or texts without stopwords, and unigram and bigram has higher accuracy score than each other for once, which means they have barely no difference in performance. I believe the reason for unigram_bigram has best performance is that since two model plus together, it has larger number of features which can make the classification accuracy improved.

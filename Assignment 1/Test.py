@@ -28,6 +28,6 @@ train_data=reviews[:int((len(reviews))*.80)]
 test_data=reviews[int(len(reviews)*.80):int((len(reviews))*.90)]
 val_data=reviews[int(len(reviews)*.90):]
 
-with open('testwsw.csv','w')as q:
+with open('test.csv','w')as q:
     writer=csv .writer(q)
     writer.writerows(test_data)

@@ -2,11 +2,7 @@ import re
 import string
 import csv
 import random 
-from nltk.tokenize import word_tokenize
 
-
-
-    
 
 with open('val.csv','r') as f, open('stopwords.txt','r') as sw:
     f_content=f.read()

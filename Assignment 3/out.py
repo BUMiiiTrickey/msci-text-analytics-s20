@@ -3,9 +3,9 @@ import random
 
 
 def read_dataset(data_path):
-    with open("pos.txt") as f:
+    with open("20863354_s647liu/Assignment3/data/pos.txt") as f:
         pos_lines = f.readlines()
-    with open("neg.txt") as f:
+    with open("20863354_s647liu/Assignment3/data/neg.txt") as f:
         neg_lines = f.readlines()
     return(pos_lines + neg_lines)
 
